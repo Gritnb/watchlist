@@ -1,6 +1,6 @@
 let resultIDs = []
 /*********/
-let apikey = null
+let apikey = ''
 /*********/
 function sanitizeInput(prompt) {
     return prompt.trim().toLowerCase();

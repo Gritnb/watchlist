@@ -2,7 +2,7 @@ import Anthropic from "@anthropic-ai/sdk"
 import { getResultsByName } from '/utils/getResults.js'
 
 /******************/
-let apikey = null
+let apikey = ''
 /******************/
 const PROMPT = `You are an assistant, and your job is to suggest movies to the user, 
 based on a string of text that the user provides. If the text is gibberish a.k.a does
